@@ -362,7 +362,7 @@ setInterval(() => {
 
   // Mesajı bot aracılığıyla gönder
   bot.message.send(messageToSend);
-}, 45000); // 15 saniyede bir (15,000 milisaniye) gönder
+}, 30000); // 15 saniyede bir (15,000 milisaniye) gönder
 
 
 // Emittd when a player leaves the room.
