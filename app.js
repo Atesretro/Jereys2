@@ -330,7 +330,7 @@ bot.on('tipReactionCreate', (sender, receiver, item) => {
 bot.on('playerJoin', async (user) => {
   console.log(`[playerJoin]: ${user.username}(${user.id}) Hoşgeldin !`);
 
-  if (user.username === '') {
+  if (user.username === 'Atekinz') {
     bot.message.send("yapımcım odaya katıldı ❤️")
   }
   const randomMessage = await getRandomWelcomeMessage()
@@ -346,12 +346,7 @@ bot.on('playerJoin', (user) => {
 //deneme
 // Gönderilecek mesajlar dizisi
 const messages = [
- "Kokteyl alır mısınız? 🍹",
-  "Hey, günün iyi geçiyordur umarım o halde bira ile kutlayalım! 🍻",
-  "Viskiye ne dersin? 🥃",
-  "Soğuk bira hemen geliyor!",
-  "Kokteyl hazırlanıyor!",
-  "1-89 arası emote kodu, daha fazlası için BİO'yu kontrol et"
+ "Spin Grab"
 ];
 
 // Her 15 saniyede bir mesajı gönder
