@@ -13,16 +13,16 @@ module.exports = {
     roomName: 'Changeme', // change this to your room name
     // change this to where you want the bot to teleport on start
     coordinates: {
-      x: 15,
-      y: 0.7,
-      z: 2.8,
-      facing: 'FrontLeft'
+      x: 30,
+      y: 0,
+      z: 18,
+      facing: 'FrontRight'
     },
     reactionName: 'wink' // the reaction you want to use to kick players, 'wink', 'wave, 'heart', 'clap', 'thumbsup'
   },
   // This is an object containing authentication data
   authentication: {
-    room:"65fcbb8bd6cba684247cb250" , // your room ID can be found in highrise.game/room/
-    token: "f22e07285c33e446845737547957df89dcef2d28ef4d4b67e1274fc73b1797c6" // your token ID     you can get one from https://highrise.game
+    room:"659fb5435a5905047342306d" , // your room ID can be found in highrise.game/room/
+    token: "1df1fb08a8fce0ff255caf83390ed337d8ac96bd05efcf4ce438dd4f1e8d286e" // your token ID     you can get one from https://highrise.game
   }
 }
